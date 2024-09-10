@@ -1,0 +1,86 @@
+/* Styling untuk body */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('fox.jpg'); /* Pastikan path benar */
+  background-size: cover; /* Agar gambar menutupi seluruh layar */
+  background-position: center; /* Gambar selalu di tengah */
+  height: 100vh; /* Tinggi body menyesuaikan layar */
+  font-family: Arial, sans-serif; /* Font default */
+  color: #fff; /* Warna teks putih */
+}
+
+/* Styling untuk container */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Container memenuhi layar */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Overlay semi-transparan untuk memperjelas teks */
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Styling untuk judul */
+.title {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+/* Styling untuk pesan */
+.message {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* Styling untuk tombol */
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #e64a19;
+}
+
+/* Styling untuk pesan yang tampil saat tombol diklik */
+.message-display {
+  font-size: 1.2em;
+  color: #ffeb3b;
+  margin-top: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Animasi untuk pesan yang muncul */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#motivationalMessage p {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+#motivationalMessage p:first-child {
+  margin-bottom: 10px;
+}
+
