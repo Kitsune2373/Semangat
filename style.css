@@ -22,24 +22,26 @@ body {
   padding: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+  max-width: 90%; /* Menjaga lebar container agar tidak terlalu besar di layar kecil */
+  margin: auto; /* Memastikan container berada di tengah layar */
 }
 
 /* Styling untuk judul */
 .title {
-  font-size: 3em;
+  font-size: 2.5em; /* Ukuran font yang lebih kecil untuk ponsel */
   margin-bottom: 10px;
 }
 
 /* Styling untuk pesan */
 .message {
-  font-size: 1.5em;
+  font-size: 1.2em; /* Ukuran font yang lebih kecil untuk ponsel */
   margin-bottom: 20px;
 }
 
 /* Styling untuk tombol */
 .btn {
   padding: 10px 20px;
-  font-size: 1.2em;
+  font-size: 1em; /* Ukuran font yang lebih kecil untuk ponsel */
   background-color: #ff5722;
   color: #fff;
   border: none;
@@ -54,7 +56,7 @@ body {
 
 /* Styling untuk pesan yang tampil saat tombol diklik */
 .message-display {
-  font-size: 1.2em;
+  font-size: 1em; /* Ukuran font yang lebih kecil untuk ponsel */
   color: #ffeb3b;
   margin-top: 20px;
   animation: fadeIn 1s ease-in-out;
@@ -74,13 +76,27 @@ body {
   }
 }
 
-#motivationalMessage p {
-  margin: 0;
-  font-size: 1.2em;
-  line-height: 1.5;
-}
+/* Menambahkan media query untuk layar kecil */
+@media (max-width: 600px) {
+  .title {
+    font-size: 2em; /* Ukuran font yang lebih kecil untuk ponsel */
+  }
 
-#motivationalMessage p:first-child {
-  margin-bottom: 10px;
-}
+  .message {
+    font-size: 1em; /* Ukuran font yang lebih kecil untuk ponsel */
+  }
 
+  .btn {
+    padding: 8px 15px;
+    font-size: 0.9em; /* Ukuran font yang lebih kecil untuk ponsel */
+  }
+
+  #motivationalMessage p {
+    font-size: 1em; /* Ukuran font yang lebih kecil untuk ponsel */
+    line-height: 1.4; /* Jarak antar baris yang lebih sesuai untuk ponsel */
+  }
+
+  #motivationalMessage p:first-child {
+    margin-bottom: 5px;
+  }
+}
