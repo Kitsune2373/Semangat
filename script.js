@@ -3,63 +3,43 @@ document.getElementById('motivationButton').addEventListener('click', function()
   const messages = [
     {
       id: 1,
-      indonesian: "Humaira, kerja kerasmu sangat berarti. Aku selalu bangga padamu. ❤️",
-      english: "Humaira, your hard work means so much. I’m always proud of you. ❤️"
+      indonesian: "Tetap fokus dan semangat, Humaira. Setiap usaha kecil membawa hasil besar.",
+      english: "Stay focused and motivated, Humaira. Every small effort leads to big results."
     },
     {
       id: 2,
-      indonesian: "Humaira, kamu luar biasa dalam merawat orang lain. Jangan lupa, aku selalu di sini mendukungmu. 💪",
-      english: "Humaira, you’re amazing at taking care of others. Don’t forget, I’m always here supporting you. 💪"
+      indonesian: "Ingat, langkah-langkah kecil menuju kesuksesan besar. Terus maju, Humaira.",
+      english: "Remember, small steps lead to big success. Keep moving forward, Humaira."
     },
     {
       id: 3,
-      indonesian: "Humaira, aku tahu hari ini mungkin sulit, tapi cintaku selalu ada untukmu. Semangat terus! 💖",
-      english: "Humaira, I know today might be tough, but my love is always with you. Keep going! 💖"
+      indonesian: "Tidak ada yang mudah, tapi usaha keras selalu membawa hasil. Kamu bisa, Humaira!",
+      english: "Nothing is easy, but hard work always pays off. You got this, Humaira!"
     },
     {
       id: 4,
-      indonesian: "Humaira, kamu membuat perbedaan setiap hari. Aku cinta kamu lebih dari apapun. 🌟",
-      english: "Humaira, you make a difference every day. I love you more than anything. 🌟"
+      indonesian: "Setiap tantangan adalah kesempatan untuk tumbuh. Teruslah berjuang, Humaira.",
+      english: "Every challenge is a chance to grow. Keep pushing, Humaira."
     },
     {
       id: 5,
-      indonesian: "Humaira, teruskan kerja hebatmu. Setiap usahamu membuatku semakin bangga. 😘",
-      english: "Humaira, keep up the great work. Every effort you make makes me prouder. 😘"
+      indonesian: "Satu hari penuh usaha lebih baik daripada seribu hari tanpa tujuan. Tetap semangat, Humaira.",
+      english: "One day of effort is better than a thousand days without purpose. Keep going, Humaira."
     },
     {
       id: 6,
-      indonesian: "Humaira, dedikasimu dalam merawat orang lain sangat menginspirasi. Aku selalu mendukungmu. 🌹",
-      english: "Humaira, your dedication to caring for others is so inspiring. I’m always supporting you. 🌹"
+      indonesian: "Keberhasilan datang pada mereka yang tidak menyerah. Tetap kuat, Humaira.",
+      english: "Success comes to those who don't give up. Stay strong, Humaira."
     },
     {
       id: 7,
-      indonesian: "Humaira, setiap senyumanmu membuat dunia ini lebih baik. Aku sangat mencintaimu. 💓",
-      english: "Humaira, every smile you give makes the world a better place. I love you so much. 💓"
+      indonesian: "Hari ini mungkin berat, tapi setiap langkah adalah bagian dari perjalananmu. Kamu mampu, Humaira!",
+      english: "Today might be tough, but every step is part of your journey. You can do it, Humaira!"
     },
     {
       id: 8,
-      indonesian: "Humaira, jangan lupa untuk merawat dirimu juga. Aku ada di sini, mencintaimu. 🌺",
-      english: "Humaira, don’t forget to take care of yourself too. I’m here, loving you. 🌺"
-    },
-    {
-      id: 9,
-      indonesian: "Humaira, semua kerja kerasmu membuktikan betapa luar biasanya kamu. Aku bangga padamu. 💫",
-      english: "Humaira, all your hard work shows just how amazing you are. I’m proud of you. 💫"
-    },
-    {
-      id: 10,
-      indonesian: "Humaira, kamu adalah pahlawan bagi banyak orang. Dan bagi aku, kamu adalah segalanya. 💖",
-      english: "Humaira, you’re a hero to many. And to me, you’re everything. 💖"
-    },
-    {
-      id: 11,
-      indonesian: "Humaira, semangatmu memberi kekuatan bagi orang lain dan untukku. Teruslah bersinar. 🌟",
-      english: "Humaira, your spirit gives strength to others and to me. Keep shining. 🌟"
-    },
-    {
-      id: 12,
-      indonesian: "Humaira, aku tahu pekerjaanmu tidak mudah, tapi setiap usaha dan kasih sayangmu membuat perbedaan. 😘",
-      english: "Humaira, I know your job isn’t easy, but every effort and love you give makes a difference. 😘"
+      indonesian: "Jangan menyerah sekarang, Humaira. Teruslah melangkah dan percayalah pada proses.",
+      english: "Don’t give up now, Humaira. Keep moving and trust the process."
     }
   ];
 
