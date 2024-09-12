@@ -71,3 +71,12 @@ document.getElementById('motivationButton').addEventListener('click', function()
   messageElement.classList.remove('hidden');
   messageElement.classList.add('message-display');
 });
+
+/* Menambahkan fungsi untuk kontrol pemutar audio */
+document.getElementById('playButton').addEventListener('click', function() {
+  document.getElementById('audioPlayer').play();
+});
+
+document.getElementById('pauseButton').addEventListener('click', function() {
+  document.getElementById('audioPlayer').pause();
+});

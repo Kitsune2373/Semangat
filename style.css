@@ -76,7 +76,46 @@ body {
   }
 }
 
-/* Menambahkan media query untuk layar kecil */
+/* Styling untuk audio dan kontrol pemutar lagu */
+.audio-container {
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls button {
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.controls button:hover {
+  background-color: #e64a19;
+}
+
+audio {
+  width: 100%; /* Pemutar audio responsif */
+  margin-top: 15px;
+}
+
+input[type="file"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media query untuk layar kecil */
 @media (max-width: 600px) {
   .title {
     font-size: 2em; /* Ukuran font yang lebih kecil untuk ponsel */
@@ -91,6 +130,11 @@ body {
     font-size: 0.9em; /* Ukuran font yang lebih kecil untuk ponsel */
   }
 
+  .controls button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+
   #motivationalMessage p {
     font-size: 1em; /* Ukuran font yang lebih kecil untuk ponsel */
     line-height: 1.4; /* Jarak antar baris yang lebih sesuai untuk ponsel */
@@ -98,5 +142,9 @@ body {
 
   #motivationalMessage p:first-child {
     margin-bottom: 5px;
+  }
+
+  audio {
+    margin-top: 10px;
   }
 }
