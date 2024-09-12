@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semangat Kerjanya!</title>
-  <link rel="stylesheet" href="style.css"> <!-- Menghubungkan ke file CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Semangat dengan Lagu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1 class="title">Hai Humaira </h1>
-    <p class="message">Aku tahu kamu lagi kerja keras, tapi jangan lupa untuk tetap istirahat ya! Kamu hebat! 😊</p>
-    <button id="motivationButton" class="btn">Dapatkan Pesan Semangat!</button>
-    <p id="motivationalMessage" class="hidden"></p>
-  </div>
+    <div class="container">
+        <button id="motivationButton">Klick untuk Pesan Semangat</button>
+        <div id="motivationalMessage" class="hidden"></div>
 
-  <script src="script.js"></script> <!-- Menghubungkan ke file JS (opsional jika ada fungsi tambahan) -->
+        <!-- Input untuk mengganti background -->
+        <input type="file" id="backgroundInput" accept="image/*" />
+
+        <!-- Pemutar lagu -->
+        <div class="audio-container">
+            <audio id="audioPlayer">
+                <source src="musik.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Tombol Play dan Pause -->
+        <div class="controls">
+            <button id="playButton">Play</button>
+            <button id="pauseButton">Pause</button>
+        </div>
+
+        <!-- Input untuk mengganti lagu -->
+        <input type="file" id="audioInput" accept="audio/*" />
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
